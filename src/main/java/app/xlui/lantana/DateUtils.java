@@ -5,11 +5,13 @@ import java.util.Date;
 
 /**
  * DateUtils -- convert {@link java.util.Date} to {@link java.time.LocalDate}
- * <p>
+ * and vice versa.
+ *
  * Java 8 provide a series of new datetime APIs, but there is not a clear
  * way to convert from old <code>Date</code> class to new <code>LocalDate</code>,
  * <code>LocalTime</code> and <code>LocalDateTime</code> class or vice versa.
- * So here is a utility class doing such things for you.
+ *
+ * So I have created an utility class to simplify such things.
  */
 public class DateUtils {
 	public static final ZoneId zone = ZoneId.systemDefault();
