@@ -32,6 +32,13 @@
         <url>https://github.com/xlui/lantana.git</url>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>local-maven-repository</id>
+            <url>file:../mvn-repo</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <java.version>8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
